@@ -1,0 +1,12 @@
+INT n = 100;
+INT odd = 0;
+INT even = 0;
+INT index = 1;
+WHILE (index <= n) {
+IF ((index % 2) == 0) { even = (even + index); } 
+ELSE { odd = (odd + index); };
+index = (index + 1);
+};
+PRINT(odd);
+PRINT(even);
+PRINT((odd + even));

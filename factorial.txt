@@ -1,0 +1,8 @@
+INT n = 8;
+INT val = 1;
+INT counter = 1;
+WHILE (counter <= n) {
+val = (val * counter);
+counter = (counter + 1);
+};
+PRINT(val);
