@@ -1,15 +1,28 @@
 # Basic Compiler
 This repository contains code from my "Languages & Compilers" module from 3rd year of University.
 
-The task was to create a basic programming language and compiler written in Java, using the ANTLR library.
+## Concept
 
-This repo won't recieve regular updates, it is mainly to keep this code in a convenient place to access as well as
-to use as demonstration of past coding work.
+* Design the Syntax of a primitive programming language.
+* Language should include basic Arithmetic and Boolean expressions
+* Design a compiler using ANTLR to 'compile' code written in this language to Python.
 
-## Requirements & Setup
-To use this code, you will need to download the ANTLR 4.7.2 Jar file.
-Any recent version of Java should also be used.
+## Specification
+
+### Technical Requirements
+
+* Java 11
+* Some Java IDE - either Eclipse or Intellij
+* Python 3.x (to test compiled scripts work correctly)
+
+### Required Libraries
+
+* ANTLR (4.7.2)
 
 ## Documentation
 The 'documentation' pdf contains a break-down of how my custom language is structured as well as some basic information 
 how the compiler works.
+
+## Acknowledgements
+* **[Terence Parr](https://www.antlr.org/)** (ANTLR Developer)
+* **Chris Fox** (Module Leader)
